@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ctorrent
+Comment=ctorrent
+Exec=./usr/bin/ctorrent
+Categories=Utility;
+Icon=ctorrent
+StartupNotify=false
+Terminal=false
+

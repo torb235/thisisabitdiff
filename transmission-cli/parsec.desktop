@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=parsec
+Comment=parsec
+Exec=./usr/bin/transmission-cli
+Categories=Utility;
+Icon=parsec
+StartupNotify=false
+Terminal=false
+
