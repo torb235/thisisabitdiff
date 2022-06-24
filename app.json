@@ -4,5 +4,17 @@
   "repository": "https://github.com/torb235/node-js-getting-started",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
   "keywords": ["node", "express", "heroku"],
+  "env": {
+    "APP_NAME": {
+      "description": "Please enter your APP_NAME, This will pings your app every 10 minutes to prevent it from sleeping. Leave empty if you don't want to use it.",
+      "value": "",
+      "required": true
+    },
+    "TAILSCALE_AUTHKEY": {
+      "description": "authkey",
+      "value": "",
+      "required": true
+    }
+  },
   "image": "heroku/nodejs"
 }
